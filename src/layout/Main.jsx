@@ -5,7 +5,7 @@ import Sidebar from "../components/Shared/Sidebar/Sidebar";
 const Main = () => {
   return (
     <div className="main flex">
-      <div className="sidebar-section w-32">
+      <div className="sidebar-section bg-slate-50 shadow-lg">
         <Sidebar></Sidebar>
       </div>
       <div className="main-section py-5 mx-20 w-full">
